@@ -23,9 +23,32 @@ main {
 }
 
 .user-text{
-  float:left;
+  float:left;  
   margin-top: 0.8em;
   margin-left: 1em;
 }
 
+div.user h2 {
+  float:left;
+  margin-left: 0.8em;
+  margin-top: 1em;
+}
+.grid-image{
+  margin-top :2em;
+  width: inherit;
+  display : grid;
+  grid-teplate-columns: 1fr 1fr 1fr;
+}
 
+.grid-item{
+  width: 15;
+  padding-top : 2em;
+}
+.big-image{
+  position:absolute;
+  width: 80vw;
+  height: 70vw;
+  top: 15vh;
+  left: 10vw;
+  transition: 0.5s all;
+}
